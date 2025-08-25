@@ -1,0 +1,25 @@
+@use 'variables';
+@use 'mixins';
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: variables.$fuente-principal;
+    font-weight: 100;
+    @include mixins.flex-config($direction: column);
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: variables.$color-fondo-claro;
+    font-family: variables.$fuente-principal;
+    font-size: variables.$tamano-fuente-base;
+}
+
+main {
+    flex-grow: 1;
+}

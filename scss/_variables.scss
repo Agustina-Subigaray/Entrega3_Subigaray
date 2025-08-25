@@ -1,0 +1,34 @@
+// Paleta de colores
+$color-principal: #000;
+$color-secundario: #c0c0c0;
+$color-claro: #fff;
+$color-fondo-claro: whitesmoke;
+$color-linea: #ccc;
+$color-fondo-menu: #f1f1f1;
+
+// Colores para fondos semitransparentes
+$fondo-semitransparente-claro-1: rgba(230, 230, 226, 0.8);
+$fondo-semitransparente-claro-2: rgba(230, 230, 226, 0.5);
+$fondo-semitransparente-claro-3: rgba(218, 218, 211, 0.8);
+$fondo-semitransparente-claro-4: rgba(255, 255, 255, 0.7);
+
+// Fuentes y tipografía
+$fuente-principal: Arial, Helvetica, sans-serif;
+$fuente-secundaria: 'Times New Roman', Times, serif;
+$tamano-fuente-base: 14px;
+$tamano-fuente-descripcion: 18px;
+
+// Espaciados
+$espaciado-xs: 5px;
+$espaciado-sm: 10px;
+$espaciado-md: 20px;
+$espaciado-lg: 40px;
+$espaciado-xl: 90px;
+$espaciado-xxl: 100px;
+
+// Otros valores
+$radio-borde-principal: 1rem;
+$radio-borde-secundario: 5px;
+$radio-borde-imagen: 8px;
+$sombra-caja: rgba(0, 0, 0, 0.2);
+$sombra-caja-suave: rgba(0, 0, 0, 0.2);
